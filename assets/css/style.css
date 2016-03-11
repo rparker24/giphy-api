@@ -1,0 +1,12 @@
+button, div, form, input {
+    margin: 10px;
+}
+.gifImg {
+	margin: 10px;
+	width: 250px;
+	height: 250px;
+	display: inline;
+}
+#gifSpace {
+	display: inline;
+}
