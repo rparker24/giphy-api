@@ -1,11 +1,40 @@
+body {
+	background-color: antiquewhite;
+}
 button, div, form, input {
     margin: 10px;
 }
+h1 {
+	font-size: 30px;
+	font-family: verdana, arial, sans-serif;
+}
 button {
 	text-transform: capitalize;
+	border-radius: 8px;
+	height: 30px;
+	background-color: darkcyan;
+	color: white;
+	font-family: verdana, arial, sans-serif;
+}
+button:hover {
+	color:lightskyblue;
+}
+label {
+	font-size: 16px;
+	font-family: verdana, arial, sans-serif;
+}
+#addComedian {
+	font-size: 16px;
+	font-family: verdana, arial, sans-serif;
+	background-color: mediumblue;
+	color: white;
+	border-radius: 4px;
 }
 .gifImg {
 	margin: 10px;
 	width: 250px;
 	height: 250px;
+}
+#gifSpace div {
+	float: left;
 }

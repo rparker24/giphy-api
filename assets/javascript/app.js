@@ -1,4 +1,4 @@
-var comedians = ['louis ck', 'chris rock', 'stephen colbert', 'sarah silverman'];
+var comedians = ['louis CK', 'chris rock', 'stephen colbert', 'sarah silverman', 'george carlin', 'lewis black'];
 
 function renderButtons(){ 
     $('#comediansView').empty();
