@@ -5,8 +5,7 @@ button, div, form, input {
     margin: 10px;
 }
 h1 {
-	font-size: 30px;
-	font-family: verdana, arial, sans-serif;
+	font: 30px verdana, arial, sans-serif;
 }
 button {
 	text-transform: capitalize;
@@ -20,12 +19,10 @@ button:hover {
 	color:lightskyblue;
 }
 label {
-	font-size: 16px;
-	font-family: verdana, arial, sans-serif;
+	font: 16px verdana, arial, sans-serif;
 }
 #addComedian {
-	font-size: 16px;
-	font-family: verdana, arial, sans-serif;
+	font: 16px verdana, arial, sans-serif;
 	background-color: mediumblue;
 	color: white;
 	border-radius: 4px;
@@ -36,5 +33,5 @@ label {
 	height: 250px;
 }
 #gifSpace div {
-	float: left;
+	display: inline-block;
 }
